@@ -49,7 +49,7 @@ h1 {
 }
 
 p {
-    font-size: 1.3rem;
+    font-size: 1rem;
     line-height: 1.6;
     color: #182222;
 }
@@ -108,11 +108,12 @@ h2 {
 }
 
 h3 {
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 1.5rem;
-    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
     color: #182222;
     margin-bottom: 10px;
+    line-height: normal;
 }
 
 
@@ -120,13 +121,20 @@ footer {
     background: #182222;
     color: #405B5B;
     text-align: center;
-    padding: 10rem;
+    padding: 3rem;
     margin-top: 2rem;
 }
 
+footer h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.5rem;
+    color: #405B5B;
+}
+
 .disclaimer {
-    font-size: 20px;
+    font-size: 13px;
     color: #e2dfe7;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .jasper {
@@ -136,6 +144,8 @@ footer {
 .reasons, h2{
     color: #405B5B;
 }
+
+
 
 
 
